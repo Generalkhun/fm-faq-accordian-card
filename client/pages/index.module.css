@@ -1,0 +1,33 @@
+.root {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    /* padding-top: 129px;
+    padding-left: 260px; */
+    position:relative;
+    
+}
+
+.outerCard {
+    height: 508px;
+    width: 920px;
+    border-radius: 20px;
+    background-color:white;
+    position:absolute;
+    top: 129px;
+    left: 260px;
+    background-image: url('/bg-pattern-desktop.svg');
+    background-position:700% 65%;
+    background-size: 1000px auto;
+    background-repeat: no-repeat;
+    
+}
+
+.backgroundImg {
+    position:absolute;
+    bottom: 100px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    right:10px
+}
