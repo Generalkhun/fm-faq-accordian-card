@@ -16,10 +16,10 @@
     position:absolute;
     top: 129px;
     left: 260px;
-    background-image: url('/bg-pattern-desktop.svg');
-    background-position:1800% 68%;
-    background-size: 950px auto;
-    background-repeat: no-repeat;
+    background-image: url('/illustration-woman-online-desktop.svg'),url('/bg-pattern-desktop.svg');
+    background-position:-18% 40%, 1850% 70% ;
+    background-size:  475px auto,950px auto;
+    background-repeat: no-repeat, no-repeat;
     
 }
 
