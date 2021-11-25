@@ -6,6 +6,16 @@ const Home: NextPage = () => {
     <div className={styles.root}>
       <div className={styles.outerCard}>
       </div>
+      {/* orange box image */}
+      <img
+        alt='orange box image'
+        src='/illustration-box-desktop.svg'
+        width='175'
+        className={styles.orangeBoxImg}
+      />
+    
+
+
     </div>
   )
 }
