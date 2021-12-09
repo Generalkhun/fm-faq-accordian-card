@@ -20,11 +20,24 @@
     background-position:-18% 40%, 1850% 70% ;
     background-size:  475px auto,950px auto;
     background-repeat: no-repeat, no-repeat;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 .orangeBoxImg {
     position:absolute;
     left: 143px;
-    top: 333px
-
+    top: 333px;
+}
+.backgroundImgWrapper {
+    width:460px;
+    height: 500px;
+}
+.contentWrapper {
+    width:460px;
+    background-color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 95px;
+    padding-left: 40px;
 }
