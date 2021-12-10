@@ -11,8 +11,12 @@ interface Props {
 export const AccordianInfo = ({ accordianInfo, isExpanded, onExpandAccordian }: Props) => {
     return (
         <div>
-            <button onClick={() => onExpandAccordian(accordianInfo.id)} className={styles.accordion}>{accordianInfo.title}</button>
-            {isExpanded && <div>{accordianInfo.content}</div>}
+            <button
+                onClick={() => onExpandAccordian(accordianInfo.id)}
+                className={isExpanded ? styles.accordionExpanded : styles.accordion}
+            >{accordianInfo.title}
+            </button>
+            {isExpanded && <div className={styles.accordianContent}>{accordianInfo.content}</div>}
         </div>
     )
 }

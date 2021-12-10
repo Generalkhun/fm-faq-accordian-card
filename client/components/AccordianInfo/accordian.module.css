@@ -1,3 +1,24 @@
 .accordion{
-    background-color: red;
+    background-color: white;
+    border: none;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+}
+
+.accordionExpanded{
+    background-color: white;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    border: none;
+    font-weight: 700;
+}
+
+.accordion:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.accordianContent{
+    font-family: Kumbh Sans;
+    font-size: 13px;
 }
