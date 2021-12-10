@@ -36,8 +36,15 @@
 .contentWrapper {
     width:460px;
     background-color: white;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 70px;
     padding-right: 95px;
     padding-left: 40px;
+}
+
+.faqTitle {
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(238, 29%, 16%);
 }
